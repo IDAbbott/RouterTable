@@ -266,6 +266,33 @@
             "tags": [],
             "bom": []
           }
+        },
+        {
+          "name": "Shape 6",
+          "ioValue": {
+            "geometry": "circle-15",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
         }
       ]
     },
@@ -397,6 +424,20 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "Circle",
+      "name": "Circle",
+      "x": 0.29638009049773756,
+      "y": 0.11041666666666666,
+      "uniqueID": "id-72",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 30,
+          "currentEquation": "30"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -495,6 +536,12 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-68",
       "ap2ID": "id-2"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 6",
+      "ap1ID": "id-72",
+      "ap2ID": "id-31"
     }
   ],
   "unitsKey": "MM",
