@@ -270,7 +270,7 @@
         {
           "name": "Shape 6",
           "ioValue": {
-            "geometry": "circle-15",
+            "geometry": "circle-37.5",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -391,12 +391,12 @@
       "atomType": "Export",
       "name": "Export",
       "x": 0.6624434389140271,
-      "y": 0.4083333333333333,
+      "y": 0.4041666666666667,
       "uniqueID": "id-63",
       "ioValues": [
         {
           "name": "File Type",
-          "ioValue": "STL"
+          "ioValue": "SVG"
         },
         {
           "name": "Resolution (dpi)",
@@ -407,7 +407,7 @@
           "ioValue": "RouterTable"
         }
       ],
-      "type": null,
+      "type": "SVG",
       "resolution": 96,
       "importIndex": 0,
       "partName": "RouterTable"
@@ -434,10 +434,43 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 75,
+          "currentEquation": "75"
         }
       ]
+    },
+    {
+      "atomType": "Gcode",
+      "name": "Gcode",
+      "x": 0.7343891402714933,
+      "y": 0.9166666666666667,
+      "uniqueID": "id-76",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 6,
+          "currentEquation": "6"
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1,
+          "currentEquation": "1"
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "RouterTable"
+        }
+      ],
+      "partName": "RouterTable",
+      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
@@ -536,6 +569,12 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-68",
       "ap2ID": "id-2"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "id-68",
+      "ap2ID": "id-76"
     },
     {
       "ap1Name": "geometry",
