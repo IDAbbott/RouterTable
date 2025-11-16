@@ -442,8 +442,8 @@
     {
       "atomType": "Gcode",
       "name": "Gcode",
-      "x": 0.7343891402714933,
-      "y": 0.9166666666666667,
+      "x": 0.7361990950226245,
+      "y": 0.8375,
       "uniqueID": "id-76",
       "ioValues": [
         {
@@ -458,11 +458,13 @@
         },
         {
           "name": "Speed",
-          "ioValue": 1500
+          "ioValue": 1500,
+          "currentEquation": "1500"
         },
         {
           "name": "Cut Through",
-          "ioValue": 0
+          "ioValue": 3,
+          "currentEquation": "3"
         },
         {
           "name": "Part Name",
@@ -566,12 +568,6 @@
     },
     {
       "ap1Name": "geometry",
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-68",
-      "ap2ID": "id-2"
-    },
-    {
-      "ap1Name": "geometry",
       "ap2Name": "geometry",
       "ap1ID": "id-68",
       "ap2ID": "id-76"
@@ -581,6 +577,12 @@
       "ap2Name": "Shape 6",
       "ap1ID": "id-72",
       "ap2ID": "id-31"
+    },
+    {
+      "ap1Name": "output",
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-76",
+      "ap2ID": "id-2"
     }
   ],
   "unitsKey": "MM",
