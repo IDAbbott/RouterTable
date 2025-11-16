@@ -24,8 +24,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 6.25,
-          "currentEquation": "6.25"
+          "ioValue": 6.25
         }
       ]
     },
@@ -38,18 +37,15 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 193,
-          "currentEquation": "193"
+          "ioValue": 193
         },
         {
           "name": "yDist",
-          "ioValue": 186,
-          "currentEquation": "186"
+          "ioValue": 186
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -72,8 +68,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -96,8 +91,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -120,8 +114,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -305,13 +298,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 600,
-          "currentEquation": "600"
+          "ioValue": 600
         },
         {
           "name": "y length",
-          "ioValue": 420,
-          "currentEquation": "420"
+          "ioValue": 420
         }
       ]
     },
@@ -353,13 +344,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 25,
-          "currentEquation": "25"
+          "ioValue": 25
         },
         {
           "name": "y length",
-          "ioValue": 180,
-          "currentEquation": "180"
+          "ioValue": 180
         }
       ]
     },
@@ -372,18 +361,15 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 190,
-          "currentEquation": "190"
+          "ioValue": 190
         },
         {
           "name": "yDist",
-          "ioValue": 27.5,
-          "currentEquation": "27.5"
+          "ioValue": 27.5
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -434,8 +420,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 75,
-          "currentEquation": "75"
+          "ioValue": 75
         }
       ]
     },
@@ -448,23 +433,19 @@
       "ioValues": [
         {
           "name": "Tool Size",
-          "ioValue": 6,
-          "currentEquation": "6"
+          "ioValue": 6
         },
         {
           "name": "Passes",
-          "ioValue": 1,
-          "currentEquation": "1"
+          "ioValue": 1
         },
         {
           "name": "Speed",
-          "ioValue": 1500,
-          "currentEquation": "1500"
+          "ioValue": 1500
         },
         {
           "name": "Cut Through",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         },
         {
           "name": "Part Name",
@@ -551,6 +532,12 @@
     {
       "ap1Name": "geometry",
       "ap2Name": "geometry",
+      "ap1ID": "id-48",
+      "ap2ID": "id-63"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
       "ap1ID": "id-52",
       "ap2ID": "id-56"
     },
@@ -559,12 +546,6 @@
       "ap2Name": "Shape 5",
       "ap1ID": "id-56",
       "ap2ID": "id-31"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "id-68",
-      "ap2ID": "id-63"
     },
     {
       "ap1Name": "geometry",
