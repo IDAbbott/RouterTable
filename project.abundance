@@ -39,16 +39,17 @@
         {
           "name": "xDist",
           "ioValue": 193,
-          "currentEquation": "386/2"
+          "currentEquation": "193"
         },
         {
           "name": "yDist",
           "ioValue": 186,
-          "currentEquation": "372/2"
+          "currentEquation": "186"
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
@@ -303,8 +304,8 @@
         },
         {
           "name": "y length",
-          "ioValue": 200,
-          "currentEquation": "200"
+          "ioValue": 180,
+          "currentEquation": "180"
         }
       ]
     },
@@ -317,13 +318,13 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 193,
-          "currentEquation": "386/2"
+          "ioValue": 190,
+          "currentEquation": "190"
         },
         {
           "name": "yDist",
-          "ioValue": 60,
-          "currentEquation": "60"
+          "ioValue": 27.5,
+          "currentEquation": "27.5"
         },
         {
           "name": "zDist",
